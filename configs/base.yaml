@@ -1,0 +1,16 @@
+hurst:
+  data_dir: data/raw/hurst
+  assets: ["S&P 500", "NASDAQ", "KOSPI", "Apple", "Google", "Intel", "cocacola", "nvdia", "tesla", "Samsung", "sk hynix", "Bitcoin", "eth"]
+  units: ["1d", "1wk", "1mo"]
+  n_shuffles: 500
+  seed: 0
+
+chaos:
+  gold_file: data/raw/chaos/GC=F.csv
+  cpi_file: data/raw/chaos/cpi_data.csv
+  daily_window: 2000
+  m_range: [1, 10]
+  tau: 1
+  lyap: {m: 5, tau: 2, max_t: 30, fit_range: [1, 10]}
+  n_surrogates: 19
+  seed: 0

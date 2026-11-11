@@ -1,0 +1,23 @@
+# 데이터 원본 (scripts/extract_ga_excel.py 로 생성)
+data/raw/
+*.xlsx
+# 과제 원본 문서 (공개 제외)
+*.ppt
+*.pptx
+*.key
+*.pdf
+*.docx
+*.hwp
+# 로컬 메모
+notes/
+# 비밀값
+.env
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.DS_Store
+.idea/
+.vscode/
